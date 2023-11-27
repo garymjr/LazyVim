@@ -43,6 +43,7 @@ return {
           section = string.rep(" ", 22) .. "Telescope",
         },
       }
+      opts.items = opts.items or {}
       vim.list_extend(opts.items, items)
     end,
   },
